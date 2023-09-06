@@ -1,0 +1,24 @@
+# Ignorar directorios y archivos generados automáticamente
+node_modules/
+dist/
+build/
+
+# Ignorar archivos de configuración de desarrollo local
+.env
+
+# Ignorar archivos de respaldo y caché de editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar archivos de registro
+*.log
+
+# Ignorar archivos compilados y minificados
+*.min.js
+*.min.css
+
+# Ignorar archivos de caché y bases de datos
+.cache/
+db.sqlite
