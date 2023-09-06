@@ -1,0 +1,15 @@
+header img {
+    float: left;
+}
+
+header p {
+    opacity: 0.8;
+    padding: 80px;
+    background-color:darkgray;
+    border: 2px solid black;
+}
+
+header {
+    opacity: 0.9;
+    background-image: url("../imagenes/fondo.jpg");
+}

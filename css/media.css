@@ -1,0 +1,17 @@
+@media ( max-width : 1024px ) {
+    body {
+        background-color: lightslategrey;
+    }
+}
+
+@media ( max-width : 800px ) {
+    body {
+        background-color: whitesmoke;
+    }
+}
+
+@media ( max-width : 600px ) {
+    body {
+        background-color: gray;
+    }
+}

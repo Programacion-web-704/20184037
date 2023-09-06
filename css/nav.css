@@ -1,0 +1,35 @@
+nav {
+    width: 100%;
+    overflow: hidden;
+    background-color:darkgray;
+    border: 2px solid black;
+}
+
+nav > ul {
+    list-style-type: none;
+}
+
+nav > ul > li > {
+    float: left;
+}
+
+nav > ul > li > a {
+    float: left;
+    color: whitesmoke;
+    display: block;
+    padding: 5px;
+    border-style:solid;
+    border-color: whitesmoke;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+nav > ul a:focus {
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+nav > ul a:hover {
+    color: navy;
+    border-color:navy;
+}
