@@ -1,15 +1,17 @@
 header img {
   float: left;
-}
-
-header p {
-  opacity: 0.8;
-  padding: 80px;
-  background-color: darkgray;
-  border: 2px solid black;
+  width: 400px; /* Ancho igual al ancho del logo */
+  height: auto; /* Altura automática para mantener la proporción */
 }
 
 header {
-  opacity: 0.9;
-  background-image: url("../imagenes/fondo.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6), 0 8px 32px rgba(0, 0, 0, 0.4);
+  background: rgba(20, 36, 51, 0.8)
+    linear-gradient(0deg, rgba(20, 61, 102, 0.2), rgba(20, 61, 102, 0) 50%);
 }
